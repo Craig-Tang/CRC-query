@@ -10,4 +10,4 @@ Each graph instance is obtained by dividing the data into |T| partitions, and th
 To use other dataset, simply organize your data as a list of graphs (nx.Graph()) with weight information ([0,1]). The length of the list is the number of timestamps.
 
 ## Experiment
-Notebook shows the demo of experiment including varying parameters for EEF and WCF query, along with indewx construction, update and compression. The algorithm is in the python script reliable.py file.
+Notebook shows the demo of experiment including varying parameters for EEF and WCF query, along with index construction, update and compression. The algorithm is in the python script reliable.py file.
