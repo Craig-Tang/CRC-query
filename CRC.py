@@ -11,7 +11,7 @@ from operator import itemgetter
 #================ Utilities ========================
 def get_list_G(dataset, ts, te):
     graph_path = './Data/'+dataset+'/'
-    graph_files = list(Path(graph_path).glob('*'))[ts, te]
+    graph_files = list(Path(graph_path).glob('*'))[ts:te]
     list_G = [nx.read_gml(g) for g in graph_files]
     return list_G
 
