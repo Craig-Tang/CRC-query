@@ -21,3 +21,9 @@ Running time of WCF query: 0.4596281051635742
 CRC identified with size 16 and time interval [3,4]
 CRC output at:  Bitcoin_otc.output-0.1-2-1-5.0_WCF
 ```
+
+## Example
+![](/img/output0.png)
+![](/img/output1.png)
+![](/img/output2.png)
+![](/img/output3.png)
