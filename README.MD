@@ -1,4 +1,4 @@
-# Code for WCF-Index
+# Implementation for Reliable Community Search
 This repository is a reference implementation of the querying algorithms proposed in "Reliable Community Search in Dynamic Networks".
 
 ## Data Source
@@ -7,7 +7,7 @@ Popular Temporal/Dynamic Graph Data are Available at:
 * [Network Data Repository](https://networkrepository.com/networks.php)
 
 ## Data preparation
-Data is organized in .gml format where each file represents a one-timestamp graph instance and each edge is attached with a "weight" attribute.
+Data is organized in `.gml` format where each file represents a one-timestamp graph instance and each edge is attached with a "weight" attribute.
 
 ## Requirements
 * Python 3
